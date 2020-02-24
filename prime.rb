@@ -1,13 +1,11 @@
 require 'pry'
 
 def prime?(integer)
-
-  prime = integer % 1 == 0
-  not_prime = integer % 1 != 0
   
-  if integer == prime
-      true
-    else
+  if <integer>
       false
+    else
+      (-Infinity..Infinity)to_a.all? do |num|
+        num % integer != 0
   end
 end
