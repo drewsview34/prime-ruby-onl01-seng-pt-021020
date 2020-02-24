@@ -7,7 +7,7 @@ def prime?(integer)
     else
       (2..integer-1).to_a.all? do |num|
         integer % num != 0
-      end
+    end
   end
 end
 
