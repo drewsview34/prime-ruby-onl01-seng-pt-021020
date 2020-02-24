@@ -11,5 +11,5 @@ def prime?(integer)
   end
 end
 
-prime?()
+prime?(105557)
 prime?(101013)
