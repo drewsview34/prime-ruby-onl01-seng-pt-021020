@@ -11,4 +11,4 @@ def prime?(integer)
   end
 end
 
-prime?
+prime?()
