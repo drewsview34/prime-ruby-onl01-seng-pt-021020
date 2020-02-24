@@ -7,5 +7,6 @@ def prime?(integer)
     else
       (-Infinity..Infinity).to_a.all? do |num|
         integer % num != 0
+      end
   end
 end
